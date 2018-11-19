@@ -1,5 +1,5 @@
 # https://hub.docker.com/r/camptocamp/odoo-project
-FROM camptocamp/odoo-project:12.0-latest
+FROM camptocamp/odoo-project:10.0-latest
 COPY . /odoo
 COPY templates /templates
 RUN apt-get update \

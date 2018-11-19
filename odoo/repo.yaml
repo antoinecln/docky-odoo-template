@@ -1,0 +1,10 @@
+./external-src/server-tools:
+  default: {depth: 20}
+  merges: [origin 10.0]
+  remotes: {origin: 'https://github.com/OCA/server-tools'}
+  target: origin 10.0
+src:
+  default: {depth: 20}
+  merges: [origin 10.0]
+  remotes: {origin: 'https://github.com/OCA/ocb'}
+  target: origin 10.0
