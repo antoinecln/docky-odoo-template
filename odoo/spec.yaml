@@ -1,7 +1,35 @@
 odoo:
     modules: []
-    src: https://github.com/OCA/ocb 10.0
+    src: https://github.com/OCA/ocb 12.0
 
 server-tools:
     modules: [disable_odoo_online]
-    src: https://github.com/OCA/server-tools 10.0
+    src: https://github.com/OCA/server-tools 12.0
+
+contract:
+    modules: []
+    src: git@github.com:antoinecln/contract.git 12.0
+
+partner-contact:
+    modules: []
+    src: git@github.com:antoinecln/partner-contact.git 12.0
+
+account-invoicing:
+    modules: []
+    src: git@github.com:antoinecln/account-invoicing.git 12.0
+
+l10n-france:
+    modules: []
+    src: git@github.com:antoinecln/l10n-france.git 12.0
+
+bank-payment:
+    modules: []
+    src: git@github.com:antoinecln/bank-payment.git 12.0
+
+community-data-files:
+    modules: []
+    src: git@github.com:antoinecln/community-data-files.git 12.0
+
+edi:
+    modules: []
+    src: git@github.com:antoinecln/edi.git 12.0
