@@ -1,0 +1,45 @@
+./external-src/account-invoicing:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'git@github.com:antoinecln/account-invoicing.git'}
+  target: origin 12.0
+./external-src/bank-payment:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'git@github.com:antoinecln/bank-payment.git'}
+  target: origin 12.0
+./external-src/community-data-files:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'git@github.com:antoinecln/community-data-files.git'}
+  target: origin 12.0
+./external-src/contract:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'git@github.com:antoinecln/contract.git'}
+  target: origin 12.0
+./external-src/edi:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'git@github.com:antoinecln/edi.git'}
+  target: origin 12.0
+./external-src/l10n-france:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'git@github.com:antoinecln/l10n-france.git'}
+  target: origin 12.0
+./external-src/partner-contact:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'git@github.com:antoinecln/partner-contact.git'}
+  target: origin 12.0
+./external-src/server-tools:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'https://github.com/OCA/server-tools'}
+  target: origin 12.0
+src:
+  default: {depth: 20}
+  merges: [origin 12.0]
+  remotes: {origin: 'https://github.com/OCA/ocb'}
+  target: origin 12.0
